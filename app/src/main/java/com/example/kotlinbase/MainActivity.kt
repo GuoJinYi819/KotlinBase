@@ -28,10 +28,15 @@ class MainActivity : AppCompatActivity() {
         //打印list集合
 //        var map:MapDemo = MapDemo()
 //        map.test()
-        var p:ParmsDemo = ParmsDemo()
-        //传递具体参数
-        val text = p.get(k = 10)
-        println(text)
+//        var p:ParmsDemo = ParmsDemo()
+//        //传递具体参数
+//        val text = p.get(k = 10)
+//        println(text)
+
+        //递归
+        var r:Recursion = Recursion()
+        val fact = r.fact(100,0)
+        println(fact)
     }
     //日记生成方法
     fun diaryGenerater(placeName:String):String{
