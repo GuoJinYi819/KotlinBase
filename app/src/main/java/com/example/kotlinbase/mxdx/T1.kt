@@ -6,7 +6,11 @@ package com.example.kotlinbase.mxdx
  * @Description: 用途：完成特定功能
  */
 fun main() {
-    var son = Son()
-    println("儿子的性格=${son.c}")
-    son.action()
+//    var son = Son()
+//    println("儿子的性格=${son.c}")
+//    son.action()
+    var p = Man("孙悟空")
+    p.eat()
+    var p2 = WoMan("武则天")
+    p2.eat()
 }
