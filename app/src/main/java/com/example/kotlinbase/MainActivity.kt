@@ -18,8 +18,14 @@ class MainActivity : AppCompatActivity() {
         println(function.devide(a,b))
         println(function.mutl(a,b))
 
+        val diaryGenerater = diaryGenerater("李白")
+        println(diaryGenerater)
 
-
-
+    }
+    //日记生成方法
+    fun diaryGenerater(placeName:String):String{
+        //动态替换 ${ }
+        var temple = "唐代：${placeName}  ---白日依山尽，长河落日圆"
+        return temple;
     }
 }
