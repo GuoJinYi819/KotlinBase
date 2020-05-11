@@ -6,6 +6,10 @@ package com.example.kotlinbase.mxdx
  * @Description: 用途：完成特定功能
  */
 class WoMan(name:String):Human(name) {
+    override fun pe() {
+        println("${name} 蹲着")
+    }
+
     override fun eat() {
         println("${name} 小口吃饭")
     }

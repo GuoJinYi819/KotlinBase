@@ -9,8 +9,14 @@ fun main() {
 //    var son = Son()
 //    println("儿子的性格=${son.c}")
 //    son.action()
-    var p = Man("孙悟空")
-    p.eat()
+    var p1 = Man("孙悟空")
     var p2 = WoMan("武则天")
-    p2.eat()
+    var p3 = WoMan("小黑")
+
+    //存入到集合
+    var list = listOf<Human>(p1,p2,p3)
+    for (i in list){
+        i.pe()
+    }
+
 }

@@ -7,5 +7,6 @@ package com.example.kotlinbase.mxdx
  */
 //抽象类 抽象方法
 abstract class Human(var name:String) {
-    abstract fun eat();
+    abstract fun eat()
+    abstract fun pe()
 }
