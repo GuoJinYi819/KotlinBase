@@ -3,7 +3,7 @@ package com.example.kotlinbase.hssbc
 /**ClassName: KotlinBase
  * @author 作者 : GuoJinYi
  * @version 创建时间：2020/5/11 0011 20:03
- * @Description: 用途：完成特定功能
+ * @Description: 用途：函数式编程
  */
 
 var print = fun (name:String):Unit{

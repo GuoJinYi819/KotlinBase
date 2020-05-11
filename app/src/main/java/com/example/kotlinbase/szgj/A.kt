@@ -9,15 +9,6 @@ data class A(var name:String, var age:Int)
 
 var text = listOf<A>(A("小黑",19),A("小白",11),A("小蓝",19))
 
-fun filterage(age:Int){
-    var a= ArrayList<A>()
 
-    for (i in text){
-        if(i.age==age){
-            a.add(i)
-        }
-    }
-    for (i in a){
-        println("${i.name}")
-    }
-}
+//上边的两个函数 太重复了
+//行为参数化  把筛选的行为作为参数传递到过滤器里面  简洁代码 提高效率

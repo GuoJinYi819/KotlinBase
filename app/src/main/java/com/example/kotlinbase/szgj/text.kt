@@ -6,5 +6,5 @@ package com.example.kotlinbase.szgj
  * @Description: 用途：完成特定功能
  */
 fun main() {
-   filterage(19)
+   println(text.maxBy { it.age })
 }
