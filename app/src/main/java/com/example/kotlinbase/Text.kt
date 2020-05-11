@@ -6,6 +6,7 @@ package com.example.kotlinbase
  * @Description: 用途：完成特定功能
  */
 fun main() {
+
     val singletonDemo = SingletonDemo.get()
     singletonDemo.a1()
 
