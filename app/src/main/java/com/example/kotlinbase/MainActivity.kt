@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 //        checkFace(100)
 //        heat(null)
         gradeStudnet(100)
-
+        numTest()
 
     }
     //日记生成方法
@@ -57,6 +57,16 @@ class MainActivity : AppCompatActivity() {
             80-> println("不行")
             else -> println("退学吧")
         }
+    }
+
+    fun numTest(){
+        var num = 1..100;//代表 1到100
+        var sum = 0;
+        for (n in num){
+            sum+=n;
+            println("${n} ,")
+        }
+        println("总数：${sum}")
     }
 
 
