@@ -26,9 +26,12 @@ class MainActivity : AppCompatActivity() {
        // gradeStudnet(100)
        // numTest()
         //打印list集合
-        var map:MapDemo = MapDemo()
-        map.test()
-
+//        var map:MapDemo = MapDemo()
+//        map.test()
+        var p:ParmsDemo = ParmsDemo()
+        //传递具体参数
+        val text = p.get(k = 10)
+        println(text)
     }
     //日记生成方法
     fun diaryGenerater(placeName:String):String{
