@@ -23,8 +23,11 @@ class MainActivity : AppCompatActivity() {
 //
 //        checkFace(100)
 //        heat(null)
-        gradeStudnet(100)
-        numTest()
+       // gradeStudnet(100)
+       // numTest()
+        //打印list集合
+        var list:ListDemo = ListDemo()
+        list.test()
 
     }
     //日记生成方法
