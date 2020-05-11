@@ -9,19 +9,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var a = 6
-        var b = 2
-        //加减乘除操作
-        var function:Function = Function();
-        println(function.sub(a,b))
-        println(function.plus(a,b))
-        println(function.devide(a,b))
-        println(function.mutl(a,b))
+//        var a = 6
+//        var b = 2
+//        //加减乘除操作
+//        var function:Function = Function();
+//        println(function.sub(a,b))
+//        println(function.plus(a,b))
+//        println(function.devide(a,b))
+//        println(function.mutl(a,b))
+//
+//        val diaryGenerater = diaryGenerater("李白")
+//        println(diaryGenerater)
+//
+//        checkFace(100)
+        heat(null)
 
-        val diaryGenerater = diaryGenerater("李白")
-        println(diaryGenerater)
-
-        checkFace(100)
 
     }
     //日记生成方法
@@ -39,6 +41,11 @@ class MainActivity : AppCompatActivity() {
         }else{
             println("分数${score}")
         }
+    }
+
+    //空值处理  参数尾部+？ 代表可以空值
+    fun heat(str:String?):Unit{
+        println("热"+str)
     }
 
 }
