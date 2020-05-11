@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
        // gradeStudnet(100)
        // numTest()
         //打印list集合
-        var list:ListDemo = ListDemo()
-        list.test()
+        var map:MapDemo = MapDemo()
+        map.test()
 
     }
     //日记生成方法
