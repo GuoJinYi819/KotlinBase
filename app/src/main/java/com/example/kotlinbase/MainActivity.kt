@@ -9,6 +9,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var a = 6
+        var b = 2
+        //加减乘除操作
+        var function:Function = Function();
+        println(function.sub(a,b))
+        println(function.plus(a,b))
+        println(function.devide(a,b))
+        println(function.mutl(a,b))
+
+
+
 
     }
 }
