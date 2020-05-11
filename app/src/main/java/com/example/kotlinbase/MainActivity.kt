@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
 //        println(diaryGenerater)
 //
 //        checkFace(100)
-        heat(null)
+//        heat(null)
+        gradeStudnet(100)
 
 
     }
@@ -47,5 +48,16 @@ class MainActivity : AppCompatActivity() {
     fun heat(str:String?):Unit{
         println("热"+str)
     }
+
+    //when表达式    100分挺好   90差劲  80不行 70滚蛋
+    fun gradeStudnet(score:Int):Unit{
+        when(score){
+            100-> println("挺好")
+            90-> println("差劲")
+            80-> println("不行")
+            else -> println("退学吧")
+        }
+    }
+
 
 }
