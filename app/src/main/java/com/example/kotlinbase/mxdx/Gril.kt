@@ -1,0 +1,13 @@
+package com.example.kotlinbase.mxdx
+
+/**ClassName: KotlinBase
+ * @author 作者 : GuoJinYi
+ * @version 创建时间：2020/5/11 0011 16:50
+ * @Description: 用途：完成特定功能
+ */
+class Girl(var name:String,var sex:Int)
+fun main(args: Array<String>) {
+    var g = Girl("小妹",18)
+    println(g.name)
+    println(g.sex)
+}
