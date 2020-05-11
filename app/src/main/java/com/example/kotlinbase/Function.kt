@@ -24,4 +24,11 @@ class Function {
         return a/b;
     }
 
+    //函数和函数表达式
+    //这个i 就成了一个函数
+    var i = {x:Int,y:Int->x+y}
+    var x = i(5,9);
+
+    //直接返回
+    fun add(x:Int,y:Int):Int = x+y
 }
